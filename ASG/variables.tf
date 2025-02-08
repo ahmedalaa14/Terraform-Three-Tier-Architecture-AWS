@@ -2,9 +2,9 @@ variable "vpc_id" {
   type = string
 }
 variable "ami" {
- 
-    type = string
-  
+
+  type = string
+
 }
 variable "elb_id" {
   type = string
@@ -12,23 +12,23 @@ variable "elb_id" {
 
 variable "public_ec2_tags" {
 
-    type = list(string)  
+  type = list(string)
 }
 
 variable "private_ec2_tags" {
-    type = list(any)  
+  type = list(any)
 }
 
 variable "lb_name" {
-  type = string  
+  type = string
 }
 
 variable "lb_type" {
-  type = string  
+  type = string
 }
 
 variable "AZ" {
-  type    = list(string)
+  type = list(string)
 }
 
 
